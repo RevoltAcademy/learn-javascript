@@ -16,9 +16,11 @@ We recommend below order for taking JavaScript exercises
 8. closure
 9. hoisting
 10. object
-11. prototype
-12. error handling
-13. template literal
-14. class
-15. promise
-16. async/await
+11. array
+12. prototype
+13. error handling
+14. template literal
+15. Map
+16. class
+17. promise
+18. async/await
