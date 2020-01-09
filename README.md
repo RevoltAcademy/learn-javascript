@@ -7,8 +7,8 @@ This repository contains basic exercises of JavaScript.
 We recommend below order for taking JavaScript exercises
 
 1. value
-2. equality
-3. variables
+2. variables
+3. equality
 4. functions
 5. if
 6. loop

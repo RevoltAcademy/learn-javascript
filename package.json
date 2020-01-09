@@ -1,0 +1,11 @@
+{
+  "name": "learn-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RevoltAcademy/learn-javascript.git",
+  "author": "Revolt Academy",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}

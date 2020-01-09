@@ -3,8 +3,5 @@
  */
 
 //  What is the type of 1.3?
-(() => {
-    // enter the type below
-    const type = "";
-    console.log(`Your answer is ${typeof 1.3 === type ? "correct" : "wrong"}.`);
-})();
+const type = ""; // enter the type below
+console.log(`Your answer is ${typeof 1.3 === type ? "correct" : "wrong"}.`);
