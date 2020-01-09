@@ -12,10 +12,13 @@ We recommend below order for taking JavaScript exercises
 4. functions
 5. if
 6. loop
-7. object
-8. prototype
-9. error handling
-10. template literal
-11. class
-12. promise
-13. async/await
+7. scope
+8. closure
+9. hoisting
+10. object
+11. prototype
+12. error handling
+13. template literal
+14. class
+15. promise
+16. async/await
