@@ -9,18 +9,21 @@ We recommend below order for taking JavaScript exercises
 1. value
 2. variables
 3. equality
-4. functions
-5. if
-6. loop
-7. scope
-8. closure
-9. hoisting
-10. object
-11. array
-12. prototype
-13. error handling
-14. template literal
-15. Map
-16. class
-17. promise
-18. async/await
+4. arithmetic
+5. comparison
+6. functions
+7. if
+8. loop
+9. assignment
+10. scope
+11. closure
+12. hoisting
+13. object
+14. array
+15. prototype
+16. error handling
+17. template literal
+18. Map
+19. class
+20. promise
+21. async/await
