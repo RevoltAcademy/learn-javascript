@@ -7,7 +7,7 @@
  * Operator: x-- or --x
  *
  */
-const x = 3;
+let x = 3;
 const y = x--;
 const z = --x;
 
