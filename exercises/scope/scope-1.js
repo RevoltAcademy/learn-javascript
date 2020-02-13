@@ -1,18 +1,21 @@
-"use strict"
+"use strict";
+
 /**
- * Function Scopes / Local Scopes
+ * Function Scopes
  * ================================
+ * 
+ * 函式(function)會建立自己的函式範疇(function scope)
+ * 在函式中定義的變數(variable)或函式(function)只能在該函式範疇中使用
  *
- * 如果variable在function裡被定義, variable就會被 "本地化" (become LOCAL to the function)
- *
- * Local variable擁有function scope, 它們只限於function內存取
- *
+ * 
  */
 
 // Why there is an error??
 
-function getNumber() {
-    const num = 123;
+function exampleFunction() {
+    var x = "declared inside function";
+    console.log("Inside function");
+    console.log(x);
 }
 
-console.log(num);
+console.log(x);

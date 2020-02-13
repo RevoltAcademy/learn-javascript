@@ -15,7 +15,7 @@
  * So, here is the little quest:
  *
  * Please use the function "printAsterisk" to print out 5 asterisks (*) by for loop.
- * 請用 "printAsterisk" 函數 + for loop 顯示出5粒 *
+ * 請用 "printAsterisk" 函式 + for loop 顯示出5粒 *
  * 
  * Expected output: 
  *      *

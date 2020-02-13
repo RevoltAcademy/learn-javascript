@@ -19,7 +19,7 @@
  * So, here is the little quest:
  *
  * Please use the function "printNumber" to print out the expected output by do-while loop
- * 請用 "printNumber" 函數 + do-while loop 顯示出下方的答案
+ * 請用 "printNumber" 函式 + do-while loop 顯示出下方的答案
  * 
  * Expected output: 
  * 1

@@ -14,7 +14,7 @@
  * So, here is the little quest:
  *
  * Please use the function "printNumber" to print out the expected output by while loop
- * 請用 "printNumber" 函數 + while loop 顯示出下方的答案
+ * 請用 "printNumber" 函式 + while loop 顯示出下方的答案
  * 
  * Expected output: 
  * 3
