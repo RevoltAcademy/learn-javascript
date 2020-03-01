@@ -6,26 +6,15 @@ This repository contains basic exercises of JavaScript.
 
 We recommend below order for taking JavaScript exercises
 
-1. value
-2. variables
-3. equality
-4. arithmetic
-5. comparison
-6. functions
-7. if
-8. loop
-9. scope
-10. closure
-11. hoisting
-12. object
-13. this
-14. array
-15. prototype
-16. error handling
-17. template literal
-18. Map
-19. Set
-20. class
-21. promise
-22. async/await
-23. generator
+1. Value and Variables
+2. Comparison
+3. Condition
+4. Loop
+5. Scope and Closure
+6. Function
+7. Array
+8. Class
+9. Error Handling
+10. Map and Set
+11. Async
+12. Generator
