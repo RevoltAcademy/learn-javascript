@@ -1,29 +1,20 @@
-# Revolt Academy - Learn Javascript
+# Revolt Academy - Learn Javascript #
 
-This repository contains basic exercises of JavaScript.
+此Repo分開兩個部分 (Notes & Exercise) 供初學者學習。
 
-## Learning Order
+## Learning Order ##
 
-We recommend below order for taking JavaScript exercises
+建議以下次序學習:
 
-1. value
-2. variables
-3. equality
-4. arithmetic
-5. comparison
-6. functions
-7. if
-8. loop
-9. assignment
-10. scope
-11. closure
-12. hoisting
-13. object
-14. array
-15. prototype
-16. error handling
-17. template literal
-18. Map
-19. class
-20. promise
-21. async/await
+1. Value and Variables
+2. Comparison
+3. Condition
+4. Loop
+5. Scope and Closure
+6. Function
+7. Array
+8. Class
+9. Error Handling
+10. Map and Set
+11. Async
+12. Generator
