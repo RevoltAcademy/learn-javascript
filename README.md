@@ -1,10 +1,10 @@
-# Revolt Academy - Learn Javascript
+# Revolt Academy - Learn Javascript #
 
-This repository contains basic exercises of JavaScript.
+此Repo分開兩個部分 (Notes & Exercise) 供初學者學習。
 
-## Learning Order
+## Learning Order ##
 
-We recommend below order for taking JavaScript exercises
+建議以下次序學習:
 
 1. Value and Variables
 2. Comparison
