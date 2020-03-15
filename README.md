@@ -7,14 +7,15 @@
 建議以下次序學習:
 
 1. Value and Variables
-2. Comparison
+2. Comparison and Arithmetic Operators
 3. Condition
-4. Loop
-5. Scope and Closure
+4. Error Handling
+5. Loop
 6. Function
 7. Array
 8. Class
-9. Error Handling
-10. Map and Set
-11. Async
-12. Generator
+9. Map and Set
+10. Async
+11. Generator
+12. Appendix 1: Coercion
+13. Appendix 2: Scope and Closure
