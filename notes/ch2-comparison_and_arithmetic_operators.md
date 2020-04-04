@@ -66,28 +66,80 @@ e.g. `777 === 777`。
 請看下例。
 
 ```javascript
-var 中國人 = { 居住地: "香港" };
+var 芝麻仁 = { 居住地: "香港" };
 ```
 
-宣告變數 `中國人` 時, 代表 `{ 居住地: "香港" }` 的參數 (reference) 被賦到 `中國人` 中。
+宣告變數 `芝麻仁` 時, 代表 `{ 居住地: "香港" }` 的參數 (reference) 被賦到 `中國人` 中。
 
 ```javascript
-var 娜娜 = 中國人;
+var 娜娜 = 芝麻仁;
 ```
 
-宣告變數 `娜娜` 時, 儲存於 `中國人` 的參數就會被拷貝到 `娜娜` 中。
+宣告變數 `娜娜` 時, 儲存於 `芝麻仁` 的參數就會被拷貝到 `娜娜` 中。
 
 ```javascript
-娜娜 === 中國人;                      // true
-中國人 === { 居住地: "香港" };         // false
+var 香港人 = { 居住地: "香港" };
+
+娜娜 === 芝麻仁;    // true
+芝麻仁 === 香港人;  // false
 ```
 
-第一個嚴格相等比較中, 因為變數 `娜娜` 與 變數 `中國人` 都是擁有相同參數 (reference), 所以會得出 `true`。
+第一個嚴格相等比較中, 因為變數 `娜娜` 與 變數 `芝麻仁` 都是擁有相同參數 (reference), 所以會得出 `true`。
 
-第二個嚴格相等比較中, 代表 `{ 居住地: "香港" }` 的參數已經與剛才宣告變數 `中國人` 的時侯不同,
-所以會得出 `false` 。
+第二個嚴格相等比較中, 雖然 `香港人` 的屬性 (property), `居住地` 也是 `香港`,
+
+但代表 `{ 居住地: "香港" }` 的參數已經與剛才宣告變數 `芝麻仁` 的時侯不同 (different object references but same content)。
+
+所以會得出 `香港人` 不相等於 `芝麻仁` , 即 `false` 。
+
+| 例外: |
+| :----- |
+| 但在使用 `===` 的時侯, 你可能會遇到有些非預期的比較結果。 |
+
+```javascript
+NaN === NaN // false
+0 === -0    // true
+```
+
+由上例可看到, `===` 的判辨方法並不是 _等值算法 (Same Value Algorithm)_,
+
+所以 `===` 會"騙"你 `NaN === NaN` 是 `true`, `0 === -0` 是 `false` 。
+
+那怎麼辦?
+
+要判別 `NaN`, 我們可以使用 `Number.isNaN` 來處理:
+
+```javascript
+Number.isNaN(NaN)   // true
+```
+
+要判別 `0` 與 `-0` 時, 我們可以使用 `Object.is`:
+
+```javascript
+Object.is(0, -0)    // false
+```
+
+如果有興趣知道完整 **嚴格相等 `===`** 的算法, 可以去查看 [The Strict Equality Comparison Algorithm](https://www.ecma-international.org/ecma-262/5.1/#sec-11.9.6)。
+
+| 題外話 |
+| :---- |
+| `Object.is` 的算法跟 `===` 或 `==` 不同, 是用了 [等值算法 (Same Value Algorithm)](https://www.ecma-international.org/ecma-262/5.1/#sec-9.12)。 |
 
 ### 強制比較 (Coercive Comparison) ###
+
+在JS中, 你可能會對下例結果感到好奇:
+
+```javascript
+777 == "777"    // true
+777 > "689"     // true
+"a" < "b"       // true
+1 < "b"         // false
+[] == ![]       // true
+2 == [2]        // true
+true == 1       // true
+```
+
+<!-- The Abstract Equality Comparison Algorithm https://www.ecma-international.org/ecma-262/5.1/#sec-11.9.3 -->
 
 #### 相等 ( `==` ) ####
 
