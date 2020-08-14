@@ -206,10 +206,10 @@ _[節錄 MDN Web Doc](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Re
 
 **_問:_** 那我怎樣判別當前值是`null`呢?
 
-**_答:_** 使用 `==` 或 `Object.is`
+**_答:_** 使用 `===` 或 `Object.is`
 
 ```javascript
-null == null
+null === null
 // true
 
 Object.is(null, null)
